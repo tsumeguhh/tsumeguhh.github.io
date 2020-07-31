@@ -1,0 +1,68 @@
+html {
+    background-color: black;
+    background-image: repeating-linear-gradient(-45deg, transparent, rgba(255,255,255,.3) 1px);
+}
+header {
+    height: 345px;
+}
+h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-left: 8px;
+}
+body {
+    width: 1010px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 10px 10px 10px black, -10px 10px 10px black;
+}
+main {
+    background:
+        radial-gradient(#F3F3F3 10%, transparent 8%) 0 0,
+        radial-gradient(#F3F3F3 10%, transparent 8%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#FFC066;
+    background-size:16px 16px
+}
+.navbar a {
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: underline;
+    font-weight: bold;
+    text-shadow: .3px .3px  black;
+    width: 24.8035%;
+    border: 1px solid black;
+    background:
+        radial-gradient(#F3F3F3 10%, transparent 10%) 0 0,
+        radial-gradient(#F3F3F3 10%, transparent 10%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#FFDBA7;
+    background-size:16px 16px;
+}
+label {
+    float: left;
+    width: 100px;
+    text-align: right;
+}
+input,textarea {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid black;
+    padding-bottom: 5px;
+    font-size: 80%;
+    background:
+        radial-gradient(#F3F3F3 10%, transparent 10%) 0 0,
+        radial-gradient(#F3F3F3 10%, transparent 10%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#FFDBA7;
+    background-size:16px 16px;
+}
